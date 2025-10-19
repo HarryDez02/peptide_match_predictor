@@ -1,17 +1,17 @@
-# 🧬 Peptide Match Predictor (Python Machine Learning Project)
+Peptide Match Predictor (Python Machine Learning Project)
 
 A data-driven Python tool that analyses peptide mass spectrometry results and predicts true peptide matches using a tuned **Random Forest** machine learning model.
 
 ---
 
-## 🚀 Overview
+Overview
 
 This project automates peptide match analysis between a **search list** and **results dataset** in Excel format.  
 It filters by mass range, engineers key numeric and sequence features, and trains a supervised ML model to predict which results represent genuine peptide matches — complete with confidence probabilities.
 
 ---
 
-## 🧠 Key Features
+Key Features
 
 - 📊 **Data Parsing:** Reads search and results Excel files (`.xlsx`) using `pandas` and `openpyxl`.
 - ⚙️ **Feature Engineering:** Calculates delta mass, relative difference, sequence length, and positional features.
@@ -23,7 +23,7 @@ It filters by mass range, engineers key numeric and sequence features, and train
 
 ---
 
-## 🧩 Tech Stack
+Tech Stack
 
 | Category | Tools |
 |-----------|-------|
@@ -34,8 +34,7 @@ It filters by mass range, engineers key numeric and sequence features, and train
 | IDE | VS Code / Command Line |
 
 ---
-
-## 🧰 Installation
+Installation
 
 Clone the repository and install dependencies:
 
