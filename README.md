@@ -13,13 +13,13 @@ It filters by mass range, engineers key numeric and sequence features, and train
 
 Key Features
 
-- 📊 **Data Parsing:** Reads search and results Excel files (`.xlsx`) using `pandas` and `openpyxl`.
-- ⚙️ **Feature Engineering:** Calculates delta mass, relative difference, sequence length, and positional features.
-- 🤖 **Machine Learning:** Trains a tuned `RandomForestClassifier` with 5-fold cross-validation via `GridSearchCV`.
-- 🎯 **Model Accuracy:** Achieved 100% validation accuracy on sample data.
-- 🔍 **Feature Importance:** Reports the most influential factors in predicting matches.
-- 💾 **Model Persistence:** Saves trained model as `peptide_match_model_accurate.pkl` for future reuse.
-- 📈 **Automatic Output:** Prints classification metrics, best parameters, and example predictions.
+**Data Parsing:** Reads search and results Excel files (`.xlsx`) using `pandas` and `openpyxl`.
+**Feature Engineering:** Calculates delta mass, relative difference, sequence length, and positional features.
+**Machine Learning:** Trains a tuned `RandomForestClassifier` with 5-fold cross-validation via `GridSearchCV`.
+**Model Accuracy:** Achieved 100% validation accuracy on sample data.
+**Feature Importance:** Reports the most influential factors in predicting matches.
+**Model Persistence:** Saves trained model as `peptide_match_model_accurate.pkl` for future reuse.
+**Automatic Output:** Prints classification metrics, best parameters, and example predictions.
 
 ---
 
